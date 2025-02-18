@@ -59,7 +59,7 @@ body, html {
 }
 
 
-@media (max-width: 390px) {
+@media (max-width: 375px) {
     body, html {
         height: 100%;
         margin: 0;
