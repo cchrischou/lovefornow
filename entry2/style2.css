@@ -1,0 +1,90 @@
+body {
+    background-color: #780b0d;
+    font-family: 'DotGothic16', Arial, Helvetica, sans-serif;
+    margin: 0;
+    overflow: auto; /* Changed from hidden to auto */
+    display: flex;
+    justify-content: center;
+    align-items: start; /* Changed from center to start */
+    min-height: 100vh;
+}
+
+
+.container {
+    background-color: #f0f0f0;
+    width: 700px;
+    height: 100vh;
+    overflow-y: auto;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    border: 2px solid black;
+}
+
+.character:first-child .name {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.character {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    min-height: 100px;
+    text-decoration: none;
+    color: black;
+    background-color: #f9f9f9;
+    transition: background 0.2s;
+}
+
+.character:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+
+.character:last-child {
+    border-bottom: none;
+}
+
+.heart {
+    width: 80px;
+    height: 80px;
+    background: url('../imgs/heart.webp') no-repeat center center;
+    background-size: contain;
+    margin-right: 10px;
+    padding-left: 2em;
+}
+
+.details {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.name {
+    color: #780b0d;
+    font-size: 3em ;
+}
+
+.bio {
+    font-size: 15px;
+    color: #780b0d;
+    margin-right: 2em;
+    text-align: right;
+}
+
+@media (max-width: 390px) {
+    .name {
+        color: #780b0d;
+        font-size: 2em ;
+    }
+    
+    .bio {
+        font-size: 10px;
+        color: #780b0d;
+        margin-right: 2em;
+        text-align: right;
+    }
+}

@@ -1,0 +1,120 @@
+body {
+    background-color: #780b0d;
+    color: white;
+    font-family: 'DotGothic16',monospace;
+    padding: 20px;
+    margin: 12em;
+}
+
+/* button */
+.header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #f9f9f9;
+        padding: 10px 20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.character:first-child .name {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.character {
+    display: flex;
+    align-items: center;
+    border-bottom: none;
+    padding: 10px;
+    min-height: 100px;
+    text-decoration: none;
+    color: black;
+    background-color: #f9f9f9;
+    transition: background 0.2s;
+}
+
+.character:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+
+.details {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.name {
+    color: #780b0d;
+    font-size: 3em ;
+}
+
+/* lettering */
+mark {
+    background-color: #aa6781; /* You can change 'yellow' to any color you prefer */
+    color: white; /* Optionally, change the text color */
+}
+  
+.title {
+    font-size: 50px;
+    font-weight: bold;
+}
+.noun {
+    font-size: 20px;
+}
+.synonyms {
+    font-size: 16px;
+    margin-top: 10px;
+}
+.definition {
+    font-size: 18px;
+    margin-top: 20px;
+}
+.quote {
+    font-size: 16px;
+    margin-left: 20px;
+    line-height: 1.5;
+}
+.person {
+    font-size: 16x;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+@media (max-width:390px) {
+    body {
+        background-color: #780b0d;
+        color: white;
+        font-family: 'DotGothic16',monospace;
+        padding: 20px;
+        padding-top: 8em;
+        margin: 2em;
+    }
+    
+    /* button */
+    .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #f9f9f9;
+            padding: 10px 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    }
+
+    .details {
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        font-size: 1em;
+        padding-right: 1em;
+    }
+
+
+}
