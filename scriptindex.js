@@ -1,7 +1,7 @@
 const thumb = document.querySelector('.slider-thumb');
 const track = document.querySelector('.slider-track');
 const message = document.getElementById('message');
-const unlockPosition = track.offsetWidth - thumb.offsetWidth; // End position of the slider
+const unlockPosition = track.offsetWidth - thumb.offsetWidth;
 
 let isDragging = false;
 
@@ -28,12 +28,11 @@ function startDrag(e) {
         document.removeEventListener('mouseup', stopDrag);
         document.removeEventListener('touchend', stopDrag);
 
-        // Check if the thumb is at the unlock position
         if (thumb.offsetLeft >= unlockPosition) {
             message.textContent = "welcome!";
-            window.location.href = "https://cchrischou.github.io/lovefornow/entry1.html"; // Redirect to the next page
+            window.location.href = "https://cchrischou.github.io/lovefornow/entry1.html"; 
         } else {
-            thumb.style.left = '0px'; // Reset if not unlocked
+            thumb.style.left = '0px'; 
             message.textContent = "slide to unlock";
         }
     }
