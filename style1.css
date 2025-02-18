@@ -59,7 +59,7 @@ body, html {
 }
 
 
-/* @media (max-width: 390px) {
+@media (max-width: 390px) {
     body, html {
         height: 100%;
         margin: 0;
@@ -121,34 +121,7 @@ body, html {
         width: 15em; 
         height: 15em; 
     }
-} */
-
-
-/* Media Query for smaller screens (max-width: 390px) */
-@media (max-width: 390px) {
-    body, html {
-        background-color: #780b0d; /* Optional: Reinforce background */
-    }
-    
-    .link-container {
-        text-decoration: none; 
-    }
-    
-    .button-container {
-        margin: 2em; /* Adjusted margin for smaller screens */
-    }
-    
-    .container {
-        width: 250px; /* Reduced container size for smaller screens */
-        height: 250px; /* Reduced container height */
-    }
-
-    .top-image {
-        width: 10em; /* Smaller top image */
-        height: 10em; /* Smaller top image */
-    }
 }
-
 
 
 
