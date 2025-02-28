@@ -1,10 +1,11 @@
-/* Add this CSS to style the form */
 body {
     font-family: "cofo-sans-pixel", sans-serif;
     font-weight: 400;
-    font-style: normal;    margin: 0;
+    font-style: normal;    
+    color: white;
     padding: 0;
-    background-color: #f7f7f7;
+    background-color: #780b0d;
+    margin: 6em;
 }
 
 h1 {
@@ -14,9 +15,9 @@ h1 {
 
 form {
     display: block;
-    margin: 20px auto;
+    margin: 4em auto;
     width: 50%;
-    padding: 20px;
+    padding: 3em;
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -24,23 +25,24 @@ form {
 
 textarea {
     width: 100%;
-    padding: 10px;
+    margin: 0.5em;
     font-size: 16px;
     border-radius: 5px;
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: red;
     color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     margin-top: 10px;
+    font-family: "cofo-sans-pixel", Arial, Helvetica, sans-serif;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: red;
 }
 
 #userResponses {
@@ -49,4 +51,5 @@ button:hover {
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: black;
 }
